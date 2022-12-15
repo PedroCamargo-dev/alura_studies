@@ -3,11 +3,11 @@ import Watch from "./Watch";
 import style from "./Stopwatch.module.scss"
 
 export function Stopwatch() {
-    return(
+    return (
         <div className={style.cronometro}>
             <p className={style.titulo}>Escolha um card e inicie o Cronometro</p>
             <div className={style.relogioWrapper}>
-                <Watch />    
+                <Watch />
             </div>
             <Button texto="Começar!" />
         </div>
