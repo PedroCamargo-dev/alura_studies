@@ -1,5 +1,5 @@
-import React from 'react'
-import style from './Button.module.scss'
+import React from "react"
+import style from "./Button.module.scss"
 
 class Button extends React.Component<{
     texto: string,
